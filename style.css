@@ -179,6 +179,23 @@ section {
     transform: scale(1.02);
     transition: 0.3s;
 }
+/* #contact a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+} */
+ #contact a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 6px 12px;
+    background: var(--primary);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
 
 /* RESPONSIVE */
 
