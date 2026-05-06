@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rohini Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Rohini Fadatare</h2>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-moon" id="darkToggle"></i>
+    </div>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <img src="images/MyPhoto.jpeg" class="profile">
+    <h1>Hi, I'm Rohini 👋</h1>
+    <p>Aspiring Data Analyst | Java Developer</p>
+
+    <a href="resume/Resume_RohiniFadatare.pdf" download class="btn">Download Resume</a>
+
+    <div class="socials">
+        <a href="https://github.com/RohiniF04"><i class="fab fa-github"></i></a>
+        <a href="
+https://www.linkedin.com/in/rohini-fadatare" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p><i>
+I am an MCA student and aspiring Data Analyst with strong skills in SQL, Python, and Java.
+I enjoy solving real-world problems using data and building practical applications.
+Currently, I am focusing on data analysis projects to gain industry-level experience.
+    </i></p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill">
+        <div class="skill-header">
+            <span>Java</span>
+            <span>80%</span>
+        </div>
+        <div class="bar"><div class="progress java"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-header">
+            <span>SQL</span>
+            <span>75%</span>
+        </div>
+        <div class="bar"><div class="progress sql"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-header">
+            <span>Python</span>
+            <span>70%</span>
+        </div>
+        <div class="bar"><div class="progress python"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-header">
+            <span>HTML & CSS</span>
+            <span>85%</span>
+        </div>
+        <div class="bar"><div class="progress html"></div></div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>PerfectMatch</h3>
+            <p>A dynamic matrimonial website using Java, JSP, HTML, CSS, Bootstrap, JavaScript, and MySQL. </p>
+            <a href="#">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive website built using HTML, CSS, JS.</p>
+            <a href="#">View on GitHub</a>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: fadatarerohini@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/rohini-fadatare">linkedin.com/in/rohini -fadatare</a></p>
+    <p>Mobile: 9766303508</p>
+</section>
+
+<!-- SCRIPT -->
+<script>
+const toggle = document.getElementById("darkToggle");
+
+toggle.onclick = () => {
+    document.body.classList.toggle("dark");
+};
+</script>
+
+</body>
+</html>
